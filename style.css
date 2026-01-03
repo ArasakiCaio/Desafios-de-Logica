@@ -4,6 +4,13 @@
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container-person{
     align-items: center;
     justify-content: center;
     display: flex;
@@ -42,4 +49,10 @@ select{
     width: 170px;
     text-align: center;
     justify-content: justify;
+}
+
+pre{
+    margin-top: 30px;
+    padding-left: 30px;
+    font-size: 18px;
 }
