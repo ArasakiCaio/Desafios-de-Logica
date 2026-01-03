@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.person{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.person p{
+    text-align: center;
+}
+
+#segunda{
+    background-color:bisque;
+}
+
+#quarta{
+    background-color:bisque;
+}
+
+select{
+    width: 170px;
+    text-align: center;
+    justify-content: justify;
+}
